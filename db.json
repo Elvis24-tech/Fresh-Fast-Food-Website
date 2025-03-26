@@ -1,0 +1,54 @@
+{
+  "foods": [
+    {
+      "id": 1,
+      "name": "Beef Burger",
+      "category": "Beef",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyaMhdk3xX5HR_uLh5LY6FzKhaE138Xow6oA&s",
+      "description": "A delicious beef burger."
+    },
+    {
+      "id": 2,
+      "name": "Chicken Sandwich",
+      "category": "Chicken",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWHx2BO0NsPumEnOmQoJba0hSbKS4PdSYe-w&s",
+      "description": "A tasty chicken sandwich."
+    },
+    {
+      "id": 3,
+      "name": "Vegetarian Pizza",
+      "category": "Vegetarian",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzDXUJ38GqbEnLh0wJbXfEz2tV6thEpGHCdw&s",
+      "description": "A fresh vegetarian pizza."
+    },
+    
+    {
+      "id": 4,
+      "name": "Shrimp Pasta",
+      "category": "Seafood",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTSWNdWIH2seFK8YJhwggcsCHkNGpYOMKuVw&s",
+      "description": "A creamy shrimp pasta."
+    },
+    {
+      "id": 5,
+      "name": "Grilled Salmon",
+      "category": "Seafood",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1EMVBqSZJkKeVkyNP6vEXwYDTp_bhGsjRzA&s",
+      "description": "Grilled salmon with fresh herbs."
+    },
+    {
+      "id": 6,
+      "name": "Penne Arrabbiata",
+      "category": "Pasta",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT25Trkh6444t3HiaaoDfJrxEh2kMncLXq5sA&s",
+      "description": "Penne pasta in a spicy tomato sauce."
+    },
+    {
+      "id": 7,
+      "name": "Lasagna",
+      "category": "Pasta",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJblMsAcqpr1tf8JYIwiRVoJwx1L_GwnZqVw&s",
+      "description": "Classic Italian lasagna."
+    }
+  ]
+}

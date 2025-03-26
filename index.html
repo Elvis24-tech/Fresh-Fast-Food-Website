@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh Fast-foods Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Fresh-Fast Foods App</h1>
+    <p>Welcome To Our Page</p>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#contact">Contact</a></li>
+
+        </ul>
+    </nav>
+</header>
+    
+<section id ="home">
+    <h2>We Prepare and Deliver our Fresh Meals</h2>
+    <div class="home">
+        <p>Have you ever wondered on how you could get fresh,hot,yummy and delicious food at the place of your own comfort?Well,you don't have to worry about that anymore!We prepare all kinds of foods depending on the orders made by our customers and deliver them to their workplaces,homeplaces or wherever they are currently located.</p>
+    </div>
+</section>
+
+<section id="about">
+    <h2>About Us</h2>
+    <div class="about">
+        <p>We are a group of local chefs that are trying to compete with the restaurant indusry as we believe we have the potential to do better.</p>
+    </div>
+</section>
+
+<section id ="menu">
+    <h2>Our Menu</h2>
+    <label for="category">Select a food category:</label>
+    <select id="category" onchange="fetchFoodItems()">
+        <option value="Beef">Beef</option>
+        <option value="Chicken">Chicken</option>
+        <option value="Vegetarian">Vegetarian</option>
+        <option value="Seafood">Seafood</option>
+        <option value="Pasta">Pasta</option>
+    </select>
+
+    <div id="food-items"></div>
+</section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Place your order here through dialing the number below</p>
+        <h3>0732353764 / 0774506579</h3>
+    </section>
+</section>
+<p>Thanks For Visiting Our Page!</p>
+<footer>
+    @2025 | FRESH FAST-FOODS | ALL RIGHTS RESERVED
+</footer>
+
+<script src="index.js"></script>
+</body>
+</html>
